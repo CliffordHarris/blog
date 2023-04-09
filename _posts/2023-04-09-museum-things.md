@@ -7,4 +7,4 @@ tags:
   - post
 image: images/screenshot-2023-04-08-at-10.34.43-pm.png
 ---
-Easter Island and Chamoy
+**Easter Island and Chamoy**

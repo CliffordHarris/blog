@@ -28,6 +28,9 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
 
+    <!-- cms -->
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
     {% include tracking-header.html %}
 
 
@@ -71,7 +74,18 @@
 
     <script src="{{site.baseurl}}/assets/js/theme.js"></script>
 
-
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+      </script>
+      
     <!-- Footer -->
     <footer class="bg-white border-top p-3 text-muted small">
         <div class="container">

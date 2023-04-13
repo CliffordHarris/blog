@@ -4,7 +4,6 @@ title: What an adventure!
 date: 2023-04-13T04:55:58.311Z
 tags:
   - post
-  - sticky
 image: assets/images/7.jpg
 ---
 # Exploring Waco!

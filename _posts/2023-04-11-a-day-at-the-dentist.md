@@ -4,7 +4,6 @@ title: A Day at the Dentist
 date: 2023-04-11T03:09:18.280Z
 tags:
   - post
-  - sticky
 image: assets/images/12.jpg
 ---
 **No Cavity today!**

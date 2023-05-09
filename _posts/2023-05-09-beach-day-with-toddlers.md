@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Beach Day with Toddlers
+title: Beach Time with Toddler
 date: 2023-05-09T04:16:27.512Z
 tags:
   - post
